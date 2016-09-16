@@ -37,8 +37,6 @@ def SortStack(myStack):
 		items -= 1
 		tmp = None
 		
-		print(myStack.stack)
-
 
 if __name__ == "__main__":
 	
@@ -50,3 +48,5 @@ if __name__ == "__main__":
 	myStack.push(100)
 	myStack.push(1)
 	SortStack(myStack)
+
+	print(myStack.stack)

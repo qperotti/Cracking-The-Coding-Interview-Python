@@ -7,8 +7,11 @@ in the array.
 '''
 
 def SearchInRotatedArray(myList,target):
-    first ,last = 0, len(myList)-1
-    while first <= last:
+
+	first ,last = 0, len(myList)-1
+
+	while first <= last:
+
 		mid = (first+last)//2
 		if myList[mid] == target:
 			return mid
@@ -25,8 +28,9 @@ def SearchInRotatedArray(myList,target):
 				first = mid+1
 
 	return -1
-                     
 
 
-myList = [50,5,20,30,40]
-print(SearchInRotatedmyListrray(myList,440))
+if __name__ == "__main__":
+
+	myList = [50,5,20,30,40]
+	print(SearchInRotatedArray(myList,40))

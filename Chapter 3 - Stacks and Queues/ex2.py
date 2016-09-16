@@ -77,7 +77,6 @@ if __name__ == "__main__":
 	myStack.pop()
 	myStack.pop()
 	myStack.pop()
-	myStack.pop()
 
 	print(myStack.stack,myStack.minStack)
 	print(myStack.top(),myStack.min())

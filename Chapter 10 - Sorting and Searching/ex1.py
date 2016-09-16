@@ -21,9 +21,10 @@ def sortedMerge(listA, listB):
 		indexSort -= 1
 
 
+if __name__ == "__main__":
 
-listA = [1,3,5,7,9,0,0,0,0]
-listB = [2,4,6,8]
+	listA = [1,3,5,7,9,0,0,0,0]
+	listB = [2,4,6,8]
 
-sortedMerge(listA,listB)
-print(listA)
+	sortedMerge(listA,listB)
+	print(listA)

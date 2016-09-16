@@ -1,4 +1,10 @@
+'''
+Exercise 10.5 - Sparse Search:
 
+Given a sorted array of strings which interspersed with empty strings, 
+write a method to find the location of a given string.
+
+'''
 
 def search(myList,start,end,target):
 	if start > end:
@@ -46,17 +52,11 @@ def search(myList,start,end,target):
 				return -1
 
 
-
-
-
-
 def sparseSearch(myList, target):
 	return search(myList,0,len(myList)-1,target)
 
 
+if __name__ == "__main__":
 
-
-
-
-myList = ['at','','','','ball','','','car','','','dad','','',]
-print(sparseSearch(myList,'ball'))
+	myList = ['at','','','','ball','','','car','','','dad','','',]
+	print(sparseSearch(myList,'ball'))

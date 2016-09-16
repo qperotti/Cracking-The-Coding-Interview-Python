@@ -1,5 +1,10 @@
-#ex9
+'''
+Exercise 10.9 - Sorted Matrix Search:
 
+Given an M x N matrix in which each row and each column is sorted 
+in ascending order, write a method to find an element.
+
+'''
 
 def binarySearch(myList,target,start,end):
 	
@@ -35,5 +40,4 @@ if __name__ == "__main__":
 	         [21, 22, 23, 24, 25]]
 
 	# Test
-
 	print(sortedMatrixSearch(matrix,13))
